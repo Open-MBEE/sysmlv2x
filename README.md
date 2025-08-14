@@ -3,9 +3,13 @@
 This repository provide a SysIDE based library to serialize SysMLv2 textual notatation as file or string so, it can
 be transformed and executed with an SCXML engine.
 
+Contributed by [Planetary Utilities Corp](https://www.planetaryutilities.com/)
+
+## Overview
+
 Look at examples/basic_notebook.ipynb for how to use the API with the simpleSM.sysml model.
 
-It uses [SCXML Python interpreter][https://github.com/Open-MBEE/scxml4py] to interpret SCXML models
+It uses [SCXML Python interpreter](https://github.com/Open-MBEE/scxml4py) to interpret SCXML models
 
 
 ## Installation
