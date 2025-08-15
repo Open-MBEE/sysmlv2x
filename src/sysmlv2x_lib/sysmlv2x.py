@@ -97,7 +97,7 @@ class SysMLv2ToSCXML:
             state_elements[state] = state_element
             if state.do_action is not None:
                 do_behavior_string = state.do_action.declared_name
-                print (f">>>> {do_behavior_string}")
+                #print (f">>>> {do_behavior_string}")
                 ET.SubElement(
                     state_elements[state],
                     "invoke",
